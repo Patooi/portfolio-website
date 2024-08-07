@@ -59,6 +59,7 @@ a:hover {
 
 .logo {
   font-size: 1rem;
+  color: #165241;
 }
 
 .logo:hover {
@@ -76,6 +77,57 @@ section {
 #profile {
   display: flex;
   justify-content: left;
-  gap: 5rem;
+  gap: 2rem;
   height: 80vh;
+}
+
+.section_pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+  margin-left: 100px; /* centers the image and adds space below */
+  border-radius: 50%;
+}
+
+.section_text {
+  align-self: center;
+  text-align: center;
+  max-width: 500px;
+}
+
+.section_text p {
+  font-weight: 600px;
+}
+
+.section_text1 {
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.section_text2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.about {
+  max-width: 800px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin: auto 0;
+}
+
+#socials_container {
+  margin: 20;
+  text-align: center;
+}
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
 }
