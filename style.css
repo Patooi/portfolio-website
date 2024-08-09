@@ -15,6 +15,7 @@ html {
 
 p {
   color: black;
+  font-weight: normal;
 }
 
 a,
@@ -88,7 +89,7 @@ a:hover {
 
 #profile {
   justify-content: flex;
-  margin-top: 5rem;
+  margin-top: 30px;
 }
 
 .prof-title {
@@ -97,13 +98,14 @@ a:hover {
 }
 
 .prof-picture {
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
   border-radius: 50%;
   justify-content: center;
   float: left;
-  margin-top: 50px;
-  margin-left: 300px;
+  margin-top: 0px;
+  margin-left: 250px;
+  border: 5px solid #9fc8f2;
 }
 
 .prof-about {
@@ -119,12 +121,41 @@ a:hover {
 #projects {
   justify-content: flex;
   margin-top: 400px;
+  background-color: #5499b5;
 }
 
 .proj-title {
   font-size: 3rem;
   text-align: center;
+  margin-top: 100px;
+  padding: 30px;
 }
 
-.proj-projects {
+.proj-img {
+  margin-top: 15px;
+  height: 300px;
+  width: 600px;
+  justify-content: center;
+  border: 5px solid #cedade;
+}
+
+.proj-about {
+  font-size: 1.5rem;
+  width: 30%;
+  text-align: left;
+  justify-content: center;
+  margin: auto;
+}
+
+#skills {
+  justify-content: flex;
+  margin-top: 0px;
+  background-color: #9fc8f2;
+}
+
+.ski-title {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0px;
+  padding: 30px;
 }
